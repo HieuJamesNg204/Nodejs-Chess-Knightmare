@@ -12,7 +12,7 @@
  * - Hash (MB): Transposition table size.
  */
 const stockfishDifficultyLevels = {
-    1: { skillLevel: 0, depth: 1, movetime: 1000, elo: 800, contempt: -100 },
+    1: { skillLevel: 0, depth: 1, movetime: 50, elo: 800, contempt: -100 },
     2: { skillLevel: 2, depth: 2, movetime: 100, elo: 1000, contempt: -75 },
     3: { skillLevel: 4, depth: 3, movetime: 150, elo: 1200, contempt: -50 },
     4: { skillLevel: 6, depth: 4, movetime: 200, elo: 1400, contempt: -25 },
